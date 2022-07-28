@@ -1,0 +1,11 @@
+<form [formGroup]="dareForm" (ngSubmit)="submit()" style="position: relative;top: 5vw;left: 14vw">
+    <div *ngFor="let dare of questionList; trackBy:trackById">
+        <div>{{dare.questions}}</div>
+        <div *ngFor="let ans of dare.options" class="mt-1">
+            <input type="radio" [id]="ans.value" [name]="dare.questions" [value]="ans.value"
+                formArrayName="selectAnswers" (change)="onCheckboxChange($event,ans)" required>
+            <label [for]="ans.value">{{ans.value}}</label>
+        </div>
+    </div>
+    <button class="btn btn-primary mt-2" type="submit" [disabled]="dareForm.value.selectAnswers==5">Submit</button>
+</form>

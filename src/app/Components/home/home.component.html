@@ -1,0 +1,15 @@
+
+<h3 class="text-center">Welcome <span class="text-success"> {{name}}</span> let's test your friendship </h3>
+
+<div class="container" style="position: relative;top: 10vw;left: 14vw;">
+    <div *ngIf="DareList$ | async as dareList">
+        <h4>Select any 5 quesions you want to answer....</h4>
+        <form [formGroup]="dareQuestionsFrom" (ngSubmit)="onSubmit()">
+            <div class="form-check mt-2" *ngFor="let dare of dareList; trackBy:trackById;let i=index" style="font-size: 15px;">
+                <input type="checkbox" class="form-check-input" id="{{dare.questions}}"  [value]='dare.questions' (change)="onCheckboxChange($event)" formArrayName="selectQuestions">
+                <label class="form-check-label" for="{{dare.questions}}">{{dare.questions}}</label>
+            </div>
+            <button type="submit" [disabled]="dareQuestionsFrom.value.selectQuestions.length!=5" class="btn btn-success btn-sm btn-outline mt-2 " style="margin: auto;">Select Questions</button>
+        </form>
+    </div>
+</div>

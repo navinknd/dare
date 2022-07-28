@@ -1,0 +1,246 @@
+{
+  "post":[
+    {
+      "questions": "what is my name ?",
+      "answer":"navin",
+      "options": [
+        {
+          "id": 1,
+          "value": "navin"
+        },
+        {
+          "id": 2,
+          "value": "macklin"
+        }, {
+          "id": 3,
+          "value": "kumar"
+        },
+        {
+          "id": 4,
+          "value": "jegadeesh"
+        }
+
+      ]
+    },
+    {
+      "questions": "what is my age ?",
+      "answer":"23",
+      "options": [
+        {
+          "id": 5,
+          "value": "20"
+        },
+        {
+          "id": 6,
+          "value": "21"
+        }, {
+          "id": 7,
+          "value": "22"
+        },
+        {
+          "id": 8,
+          "value": "23"
+        }
+
+      ]
+    },
+    {
+      "questions": "what is my native place ?",
+      "answer":"Perambalur",
+      "options": [
+        {
+          "id": 9,
+          "value": "Chennai"
+        },
+        {
+          "id": 10,
+          "value": "Perambalur"
+        }, {
+          "id": 11,
+          "value": "Trichy"
+        },
+        {
+          "id": 12,
+          "value": "Bengaluru"
+        }
+
+      ]
+    },
+    {
+      "questions": "what is my currrent job role ?",
+      "answer":"Angular Developer",
+      "options": [
+        {
+          "id": 13,
+          "value": "Angular Developer"
+        },
+        {
+          "id": 14,
+          "value": "React Developer"
+        }, {
+          "id": 15,
+          "value": "Asp.Net Developer"
+        },
+        {
+          "id": 16,
+          "value": "Nodejs Developer"
+        }
+
+      ]
+    },
+    {
+      "questions": "what is favorite number ?",
+        "answer":"3",
+        "options": [
+        {
+          "id": 17,
+          "value": "1"
+        },
+        {
+          "id": 18,
+          "value": "2"
+        }, {
+          "id": 19,
+          "value": "3"
+        },
+        {
+          "id": 20,
+          "value": "4"
+        }
+
+      ]
+    },
+    {
+      "questions": "what is my company name ?",
+        "answer":"Diatoz",
+        "options": [
+        {
+          "id": 21,
+          "value": "Diatoz"
+        },
+        {
+          "id": 22,
+          "value": "thinroot"
+        }, {
+          "id": 23,
+          "value": "ninos"
+        },
+        {
+          "id": 24,
+          "value": "no job"
+        }
+
+      ]
+    },
+    {
+      "questions": "what is my previous job ?",
+        "answer":"fullstack",
+        "options": [
+        {
+          "id": 25,
+          "value": "seo"
+        },
+        {
+          "id": 26,
+          "value": "angular"
+        }, {
+          "id": 27,
+          "value": "node"
+        },
+        {
+          "id": 28,
+          "value": "fullstack"
+        }
+
+      ]
+    },
+    {
+      "questions": "i have a bike/car ?",
+        "answer":"bike",
+        "options": [
+        {
+          "id": 29,
+          "value": "bike"
+        },
+        {
+          "id": 30,
+          "value": "car"
+        }, {
+          "id": 31,
+          "value": "no"
+        },
+        {
+          "id": 32,
+          "value": "both"
+        }
+
+      ]
+    },
+    {
+      "questions": "what is my brother name ?",
+        "answer":"jegadeesh",
+        "options": [
+        {
+          "id": 33,
+          "value": "navin"
+        },
+        {
+          "id":34,
+          "value": "macklin"
+        }, {
+          "id": 35,
+          "value": "kumar"
+        },
+        {
+          "id": 36,
+          "value": "jegadeesh"
+        }
+
+      ]
+    },
+   {
+      "questions": "what is my favorite place ?",
+        "answer":"chennai",
+        "options": [
+        {
+          "id":37,
+          "value": "chennai"
+        },
+        {
+          "id": 38,
+          "value": "Bengaluru"
+        }, {
+          "id": 39,
+          "value": "Trichy"
+        },
+        {
+          "id": 40,
+          "value": "Perambalur"
+        }
+
+      ]
+    },
+    {
+      "questions": "what is my favorite color ?",
+        "answer":"blue",
+        "options": [
+        {
+          "id": 41,
+          "value": "red"
+        },
+        {
+          "id": 42,
+          "value": "yellow"
+        }, {
+          "id": 43,
+          "value": "blue"
+        },
+        {
+          "id": 44,
+          "value": "green"
+        }
+
+      ]
+    }
+  ]
+}

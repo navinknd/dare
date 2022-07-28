@@ -1,0 +1,13 @@
+<div class="container" style="position: relative;top: 10vw;left: 14vw;">
+
+    <h3 class="text-center">Score card List</h3>
+
+    <h6>Name: <span class="text-success">{{name}}</span> </h6>
+    <h6>score : <span
+            [ngClass]="[score==0||score==1 ? 'worst' : '' || score==2||score==3 ? 'better' : '' || score==1||score==4 || score==5 ? 'good' : '']">{{score}}</span>
+    </h6>
+    <h6>message: <span
+            [ngClass]="[score==0||score==1 ? 'worst' : '' || score==2||score==3 ? 'better' : '' || score==1||score==4 || score==5 ? 'good' : '']">{{message}}</span>
+    </h6>
+
+</div>
